@@ -1,0 +1,32 @@
+# macOS
+.DS_Store
+
+# Xcode – Build-Output & persönliche Einstellungen
+build/
+DerivedData/
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# Export / Archive
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Secrets – niemals committen
+GenerativeAI-Info.plist
+Secrets.xcconfig
+*.env
+.env*
+
+# Supabase (lokale CLI-Daten)
+supabase/.branches/
+supabase/.temp/
+
+# Sonstiges
+*.log
